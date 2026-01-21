@@ -180,6 +180,14 @@ def encontrar_maximo_minimo():
             except ValueError:
                 print("Error: Debe ingresar un número entero válido.")
                 return
+                def mostrar_historial():
+    """Muestra el historial de operaciones"""
+    print("\n--- HISTORIAL DE OPERACIONES ---")
+    if not historial:
+        print("No se han realizado operaciones aún.")
+    else:
+        for i, operacion in enumerate(historial, 1):
+            print(f"{i}. {operacion}")
         
         if numeros:
             maximo = max(numeros)
