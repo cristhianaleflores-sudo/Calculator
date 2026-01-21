@@ -222,7 +222,7 @@ def mostrar_historial():
     print("\n--- HISTORIAL DE OPERACIONES ---")
 
     if not historial:
-        print("No se han realizado operaciones aún.")
+        print("No se a realizado algunas operaciones aún.")
     else:
         for i, operacion in enumerate(historial, start=1):
             print(f"{i}. {operacion}")
