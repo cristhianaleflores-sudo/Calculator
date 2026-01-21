@@ -1,6 +1,6 @@
 def mostrar_menu():
     """Muestra el menú de opciones"""
-    print("\n" + "="*50)
+    print("\n" + "="*70)
     print("CALCULADORA AVANZADA")
     print("="*50)
     print("1. Suma de 'n' números (positivos y negativos)")
