@@ -1,5 +1,5 @@
 # ============================
-# CALCULADORA AVANZADA (con historial)
+# CALCULADORA tradicional (con historial)
 # ============================
 
 # Historial global de operaciones
@@ -8,7 +8,7 @@ historial = []
 def mostrar_menu():
     """Muestra el menú de opciones"""
     print("\n" + "="*50)
-    print("CALCULADORA AVANZADA")
+    print("CALCULADORA tradicional")
     print("="*50)
     print("1. Suma de 'n' números (positivos y negativos)")
     print("2. Producto entre 'n' números")
