@@ -7,9 +7,9 @@ historial = []
 
 def mostrar_menu():
     """Muestra el menú de opciones"""
-    print("\n" + "="*50)
+    print("\n" + "="40)
     print("CALCULADORA AVANZADA")
-    print("="*50)
+    print("="*40)
     print("1. Suma de 'n' números (positivos y negativos)")
     print("2. Producto entre 'n' números")
     print("3. División entre 2 números")
